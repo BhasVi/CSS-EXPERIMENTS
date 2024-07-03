@@ -1,0 +1,66 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #E9EDF1;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    background-color: #DBE1E8;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    height: 8.9rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    gap: 3.6rem;
+    list-style-type: none;
+}
+
+a{
+    text-decoration-line: none;
+}
+
+a p{
+    font-size: 2.2rem;
+    color: #0460BC;
+}
+
+ul li{
+    font-size: 1.8rem;
+    color: black;
+}
+
+.boldboi{
+    font-weight: bold;
+}
+
+.cart{
+    display: flex;
+    background: #C3CCD7;
+    align-items: center;
+    padding: 0.4rem 1.15rem;
+    border-radius: 0.4rem;
+}
+
+span{
+    font-size: 1.8rem;
+}
+
+ul li:hover{
+    color: #0460BC;
+}
+
+.cart:hover{
+    background-color: #B5C0CE;
+}
